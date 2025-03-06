@@ -18,9 +18,11 @@ const ScrollToTop = () => {
         setBtnCls(DEFAULT_BTN_CLS + " hidden");
       }
     };
+
     window.addEventListener("scroll", handleScroll, { passive: true });
+
     return () => {
-      window.removeEventListener("scroll", handleScroll, { passive: true });
+      window.removeEventListener("scroll", handleScroll); // ✅ Removed { passive: true }
     };
   }, []);
 
