@@ -7,11 +7,11 @@ export const personalData = {
   phone: '+91 9949544538',
   address: 'Marlava,peddapuram mandal, kakinada district, andhra pradesh - 533 437',
   github: 'https://github.com/chveeravenu',
-  facebook: 'https://www.facebook.com/venu.ch.794',
+  facebook: 'https://www.facebook.com/venu.ch.794',  
   linkedIn: 'https://www.linkedin.com/in/veera-venu-chitturi-31747b258/   ',
   twitter: 'https://x.com/venu_veera19',
   stackOverflow: 'https://stackoverflow.com/users/29778501/chitturi-veera-venu?tab=profile',
   leetcode: "https://leetcode.com/u/chveeravenu/",
   devUsername: "chitturi_veeravenu",
-  resume: "https://drive.google.com/file/d/10h4PRzEOxbONjgJerUP8fmbqz6Xz0KvL/view?usp=drive_link"
+  resume: "https://drive.google.com/file/d/1TAaRlB0EZBh7jpLROFy9soohPBU94FRq/view?usp=sharing"
 }
