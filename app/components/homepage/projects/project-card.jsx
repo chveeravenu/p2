@@ -63,6 +63,10 @@ function ProjectCard({ project }) {
           </div>
           <div><span className="text-gray-400">{`};`}</span></div>
           <div style={{marginTop:10}}>
+            <span>code :</span>
+           <span style={{color:"blue"}}> <a href={project.code} target='_blank'>{project.code}</a></span>
+          </div>
+          <div style={{marginTop:10}}>
             <span>Demo :</span>
            <span style={{color:"blue"}}> <a href={project.demo} target='_blank'>{project.demo}</a></span>
           </div>
